@@ -1,23 +1,361 @@
----
-layout: default
----
+<!DOCTYPE html> 
 
-<div class="home">
+<html>
+<head>
+	<link rel="shortcut icon" href="images/myicon2.ico" />
+	<meta charset="UTF-8">
+	<meta name="description" content="Historia del Diseno">
+	<meta name="keywords" content="Chavon, Chago, Historia, Diseno">
+	<meta name="author" content="Dorothy Cruz">	
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Historia del Diseño</title>
+</head>
+<body>
+	<div class="wrapper">
 
-  <h1 class="page-heading">Posts</h1>
+		<div id="home" class="home">
+		
+			<nav>
+				<ul>
+					<li id="inicio1" class="inicio"> <a href="#home">Historia del Diseño</a> </li>
+					<li id="inicio2" class="inicio"> <a href="#premoderno">Pre-Moderno</a> </li>
+					<li id="inicio3" class="inicio"> <a href="#moderna">Edad Moderna</a> </li>
+					<li id="inicio4" class="inicio"> <a href="#avantgarde">Avant-Garde Moderno</a> </li>
+					<li id="inicio5" class="inicio"> <a href="#a1960">1960</a> </li>
+					<li id="inicio6" class="inicio"> <a href="#post">Post-Moderno</a> </li>
+					<li id="inicio7" class="inicio"> <a href="#a2000"> 2000</a> </li>
+				</ul>
+			</nav>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+			<article> 
+				<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
+					<br>
+					<br>
+					Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo un español que se puede leer. Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución.
+				</p>
+			</article>
+			
+			<article> 
+				<h2> <a href="timeline.pdf" target="_blank"> Descargar </a> </h2>
+				<h4> Fuente: </h4>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+				<h5><a href="http://www.designishistory.com/" target="_blank">www.designishistory.com</a> <br>
+					<a href="http://www.amazon.com/Typology-Type-Design-Victorian-Digital/dp/0811823083" target="_blank"> Typology: Type Design from the Victorian Era to the Digital Age </a> <br>
+					<a href="http://es.wikipedia.org/wiki/Wikipedia:Portada" target="_blank"> es.wikipedia.org </a> 
+				</h5> 
+			</article>
 
-</div>
+		</div>
+					
+		<!---contenedor-->
+		<div id="premoderno" class="premoderno">
+
+			<nav class="menu">
+				<ul>
+					<li id="historia1"> <a href="#home">Historia del Diseño</a> </li>
+					<li id="premoderno1"> <a href="#premoderno">Pre-Moderno</a> </li>
+					<li id="moderna1"> <a href="#moderna">Edad Moderna</a> </li>
+					<li id="avantgarde1"> <a href="#avantgarde">Avant-Garde Moderno</a> </li>
+					<li id="fecha1"> <a href="#a1960">1960</a> </li>
+					<li id="post1"> <a href="#post">Post-Moderno</a> </li>
+					<li id="fecha2"> <a href="#a2000">2000</a>
+				</ul>
+			</nav>
+							
+			<div id="artnouveau" class="movimiento"> 
+				<div  class="image-container">
+						<a href="images/artnouveau.jpg" target="_blank"><div class="image"></div></a>
+				</div>
+				<img src="" alt="">
+				<h2> Art Nouveau </h2>
+				<h3> (Final s. XIX- Principio s. XX) </h3>
+				<p>
+					- Originado en Europa.<br>
+					- Hace referencia a la intención de crear un arte nuevo, joven, libre y moderno.<br>
+					- Se caracteriza por diseños orgánicos y vegetales, así como tipografía muy ornamentada y violentas curvas llamadas “whiplash”.
+				</p>
+			</div>
+
+		</div>
+		
+		<!---contenedor-->
+		<div id="moderna" class="moderna">
+			<nav class="menu">
+				<ul>
+					<li id="historia1"> <a href="#home">Historia del Diseño</a> </li>
+					<li id="premoderno1"> <a href="#premoderno">Pre-Moderno</a> </li>
+					<li id="moderna1"> <a href="#moderna">Edad Moderna</a> </li>
+					<li id="avantgarde1"> <a href="#avantgarde">Avant-Garde Moderno</a> </li>
+					<li id="fecha1"> <a href="#a1960">1960</a> </li>
+					<li id="post1"> <a href="#post">Post-Moderno</a> </li>
+					<li id="fecha2"> <a href="#a2000">2000</a>
+				</ul>
+			</nav>
+
+			<div id="expresionismo" class="movimiento1"> 
+				<div  class="image-container">
+					<a href="images/expresionismo.jpg" target="_blank"><div class="image"></div></a>
+				</div>
+				<img src="" alt="">
+		
+				<h2> Expresionismo </h2>
+				<h3> (1905-1925) </h3>
+				<p>
+					- Originado en Alemania.<br>
+					- Reacción ante el impresionismo.<br>
+					- El expresionismo es la deformación de la realidad para expresar de forma más subjetiva la naturaleza y el ser humano, dando primacía a la expresión de los sentimientos más que a la descripción objetiva de la realidad.
+				</p>
+			</div>
+
+			<div id="dada" class="movimiento2"> 
+				<div class="image-container">
+					<a href="images/dada.jpg" target="_blank"><div class="image"></div></a>
+				</div>
+				<img src="" alt="">
+
+				<h2> Dadaísmo  </h2>
+				<h3> (1916-1922) </h3>
+				<p>
+					- Originado Zurich, Suiza.<br>
+					- Movimiento cultural y de anti-arte.<br>
+					- Trataron de romper con los estilos de la estética de arte tradicionales, así como la racionalidad.
+				</p>
+			</div>
+
+		</div>
+		
+		<!---contenedor-->
+		<div id="avantgarde" class="avantgarde">
+			<nav class="menu">
+				<ul>
+					<li id="historia1"> <a href="#home">Historia del Diseño</a> </li>
+					<li id="premoderno1"> <a href="#premoderno">Pre-Moderno</a> </li>
+					<li id="moderna1"> <a href="#moderna">Edad Moderna</a> </li>
+					<li id="avantgarde1"> <a href="#avantgarde">Avant-Garde Moderno</a> </li>
+					<li id="fecha1"> <a href="#a1960">1960</a> </li>
+					<li id="post1"> <a href="#post">Post-Moderno</a> </li>
+					<li id="fecha2"> <a href="#a2000">2000</a>
+				</ul>
+			</nav>
+
+			<div id="futurismo" class="movimiento3"> 
+				<div class="image-container">
+					<a href="images/futurismo.jpg" target="_blank"><div class="image"></div></a>
+				</div>
+				<img src="" alt="">
+				
+				<h2> Futurismo </h2>
+				<h3> (1909-1944) </h3>
+				<p>
+					- Originado en Italia.<br>
+					- No fue sólo un movimiento artístico, sino también un movimiento social.<br>
+					- Hace uso de formas dinámicas y abstractas.
+				</p>
+			</div>
+
+			<div id="constructivismo" class="movimiento4"> 
+				<div class="image-container">
+					<a href="images/constructivismo.jpg" target="_blank"><div class="image"></div></a>
+				</div>
+				<img src="" alt="">
+				
+				
+				<h2> Constructivismo  </h2>
+				<h3> (1914-1932) </h3>
+				<p>
+					- Originado en Rusia.<br>
+					- Fue principalmente un movimiento de arte y arquitectónico,  paralelo al Suprematismo.<br>
+					- Rechazó la idea del arte por el arte y la clase burguesa tradicional de la sociedad a la que el arte anterior había sido atendido.
+				</p>
+			</div>
+
+			<div id="suprematismo" class="movimiento5"> 
+				<div class="image-container">
+					<a href="images/suprematismo.jpg" target="_blank"><div class="image"></div></a>
+				</div>
+				<img src="" alt="">
+
+				
+				<h2> Suprematismo   </h2>
+				<h3> (1915-1925) </h3>
+				<p>
+					- Originado en Rusia. <br>
+					- Movimiento artístico enfocado en formas geométricas fundamentales (en particular, el cuadrado y el círculo). <br>
+					- Búsqueda de la supremacía de la moda y la presentación del universo sin objetos.
+				</p>
+			</div>
+
+			<div id="destijl" class="movimiento6"> 
+				<div class="image-container">
+					<a href="images/destijl.jpg" target="_blank"><div class="image"></div></a>
+				</div>
+				<img src="" alt="">
+
+				
+				<h2> De Stijl </h2>
+				<h3> (1917-1931) </h3>
+				<p>
+					- Surgido en Leiden, Holanda.<br>
+					- Movimiento artístico cuyo objetivo era la integración de las artes o el arte total. <br>
+					- Máxima simplicidad y abstracción, para lograr expresar una idea utópica de la armonía y el orden, a través de una reducción de los elementos a formas geométricas puras y colores primarios.
+				</p>
+			</div>
+
+			<div id="bauhaus" class="movimiento7"> 
+				<div class="image-container">
+					<a href="images/bauhaus.gif" target="_blank"><div class="image"></div></a>
+				</div>
+				<img src="" alt="">
+
+				
+				<h2> Bauhaus  </h2>
+				<h3> (1919-1933) </h3>
+				<p>
+					- Surgida en Weimar, Alemania. <br>
+					- Escuela de artesanía, diseño, arte y arquitectura. <br>
+					- "La forma sigue a la función", es decir, el rechazo de la ornamentación a favor de la funcionalidad.
+				</p>
+			</div>
+			
+		</div>
+
+		<!---contenedor-->
+		<div id="a1960" class="_1960">
+
+			<nav class="menu">
+				<ul>
+					<li id="historia1"> <a href="#home">Historia del Diseño</a> </li>
+					<li id="premoderno1"> <a href="#premoderno">Pre-Moderno</a> </li>
+					<li id="moderna1"> <a href="#moderna">Edad Moderna</a> </li>
+					<li id="avantgarde1"> <a href="#avantgarde">Avant-Garde Moderno</a> </li>
+					<li id="fecha1"> <a href="#a1960">1960</a> </li>
+					<li id="post1"> <a href="#post">Post-Moderno</a> </li>
+					<li id="fecha2"> <a href="#a2000">2000</a>
+				</ul>
+			</nav>
+
+			<div id="fecha1" class="movimiento8"> 
+					<div class="image-container">
+						<a href="images/ikkotanaka.jpg" target="_blank"><div class="image"></div></a>
+					</div>
+					<img src="" alt="">
+
+					<h2> 1960  </h2>
+					<h3> Diseñadores destacados: </h3>
+					<p> 
+						- Paul Rand <br>
+						- Saul Bass <br>
+						- Milton Glasser <br>
+						- Massimo Vignelli <br>
+						- Ikko Tanaka <br>
+					</p>
+				</div>
+
+		</div>
+									
+		<!---contenedor-->
+		<div id="post" class="post">
+
+			<p></p>
+			<p></p>
+			<nav class="menu">
+				<ul>
+					<li id="historia1"> <a href="#home">Historia del Diseño</a> </li>
+					<li id="premoderno1"> <a href="#premoderno">Pre-Moderno</a> </li>
+					<li id="moderna1"> <a href="#moderna">Edad Moderna</a> </li>
+					<li id="avantgarde1"> <a href="#avantgarde">Avant-Garde Moderno</a> </li>
+					<li id="fecha1"> <a href="#a1960">1960</a> </li>
+					<li id="post1"> <a href="#post">Post-Moderno</a> </li>
+					<li id="fecha2"> <a href="#a2000">2000</a>
+				</ul>
+			</nav>
+
+			<img src="" alt="">
+			<img src="" alt="">
+
+			<div id="memphis" class="movimiento9"> 
+				<div class="image-container">
+					<a href="images/memphis.jpg" target="_blank"><div class="image"></div></a>
+				</div>
+				<img src="" alt="">
+				
+				<h2> Memphis   </h2>
+				<h3> (1981-1988) </h3>
+				<p> - Surgida en Milán, Italia. <br>
+					- Movimiento de arquitectura y diseño industrial con mucha influencia. <br>
+					- Diseños coloridos con formas geométricas atrevidas.
+				</p>
+			</div>
+
+			<div id="emigre" class="movimiento10"> 
+					<div class="image-container">
+						<a href="images/emigre.jpg" target="_blank"><div class="image"></div></a>
+					</div>
+					<img src="" alt="">
+					
+					
+					<h2> Emigre  </h2>
+					<h3> (1984-2005) </h3>
+					<p>
+						- Surgida en California. <br>
+						- Se convirtió en el órgano de difusión de las corrientes postmodernas en el diseño gráfico y tuvo una influencia muy destacada en la práctica profesional y en la enseñanza.
+					</p>
+				</div>
+
+		</div>
+										
+		<!---contenedor-->
+		<div id="a2000" class="_2000">
+
+			<p></p>
+			<p></p>
+			<nav class="menu">
+				<ul>
+					<li id="historia1"> <a href="#home">Historia del Diseño</a> </li>
+					<li id="premoderno1"> <a href="#premoderno">Pre-Moderno</a> </li>
+					<li id="moderna1"> <a href="#moderna">Edad Moderna</a> </li>
+					<li id="avantgarde1"> <a href="#avantgarde">Avant-Garde Moderno</a> </li>
+					<li id="fecha1"> <a href="#a1960">1960</a> </li>
+					<li id="post1"> <a href="#post">Post-Moderno</a> </li>
+					<li id="fecha2"> <a href="#a2000">2000</a>
+				</ul>
+			</nav>
+
+			<div id="fecha2" class="movimiento11"> 
+				<div class="image-container">
+					<a href="images/sagmeister.jpg" target="_blank"><div class="image"></div></a>
+				</div>
+				<img src="" alt="">
+				
+				<h2> 2000  </h2>
+				<h3> Diseñadores en la actualidad: </h3>
+				<p>
+					- Under Consideration <br>
+					- Michael Bierut <br>
+					- Sagmeister <br>
+					- Wolff Olins <br>
+					- Winterhouse 
+				</p>
+			</div>
+
+		</div>
+										
+		<!---contenedor-->
+		<div id="descarga" class="descarga" > 
+			<div id="descargar" class="descargar">
+
+				<h6> <a href="timeline.pdf" target="_blank">DESCARGA</a>  </h6>
+
+				<footer> <h6>Copyright ©Todos los Derechos Reservados</h6></footer>
+			</div>
+
+		</div> 
+
+		<!---contenedor-->
+
+	</div>
+	
+</body>
+</html>

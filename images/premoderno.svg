@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1024px"
+	 height="424.166px" viewBox="0 0 1024 424.166" enable-background="new 0 0 1024 424.166" xml:space="preserve">
+<g id="Layer_2">
+	<rect y="-1.401" fill="#F2F2EF" width="1024" height="425.568"/>
+	<rect y="-520" fill="#F2F2EF" width="1024" height="520"/>
+</g>
+<g id="Layer_1">
+	<path fill="none" stroke="#F16224" stroke-width="6" stroke-miterlimit="10" d="M178.737-164.808
+		c140.916,0,255.151,114.235,255.151,255.151S319.653,345.495,178.737,345.495"/>
+	
+		<line fill="none" stroke="#F16224" stroke-width="6" stroke-miterlimit="10" x1="417.167" y1="172.691" x2="608.097" y2="172.691"/>
+	<g>
+		<defs>
+			<path id="SVGID_43_" d="M681.399,246.904c-39.882,0-72.214-32.331-72.214-72.214s32.331-72.214,72.214-72.214"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_43_"  overflow="visible"/>
+		</clipPath>
+		<use xlink:href="#SVGID_43_"  overflow="visible" fill="none" stroke="#F16224" stroke-width="6" stroke-miterlimit="10"/>
+	</g>
+	<line fill="none" stroke="#231F20" stroke-width="3" stroke-miterlimit="10" x1="216.23" y1="65.844" x2="144.86" y2="65.844"/>
+	<text transform="matrix(1 0 0 1 47 78.8062)" fill="#231F20" font-family="'GothamHTF-Medium'" font-size="34">1900</text>
+	<path fill="#231F20" d="M177.907,4331.866V-404.396c0-2.287-1.08-3.463-2.922-3.463c-1.842,0-3.017,1.175-3.017,3.463v9.497h-4.829
+		v-17.026h4.829v2.414c1.112-1.429,2.541-2.732,4.987-2.732c3.653,0,5.781,2.414,5.781,6.321v4737.787H177.907z M177.621-413.798
+		c-1.969,0-3.621-1.239-4.765-1.239c-0.984,0-1.366,0.54-1.81,1.556l-2.573-0.794c0.73-2.668,1.715-4.383,3.939-4.383
+		c1.97,0,3.622,1.239,4.765,1.239c0.984,0,1.366-0.54,1.81-1.557l2.573,0.794C180.83-415.513,179.845-413.798,177.621-413.798z"/>
+</g>
+</svg>

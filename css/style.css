@@ -1,0 +1,453 @@
+
+/*contenedores*/
+.image-container{
+	height: 137px;
+	width: 70px;
+	border-radius: 50% 0 0 50%;
+	overflow: hidden;
+}
+
+.image-container .image {
+	border-radius: 50% 0 0 50%;
+	height: 137px;
+	width: 137px;
+	overflow: hidden;
+	background-position: 0% 50%;
+	background-size: 100% auto;
+	background-size: contain;
+}
+
+#moderna .image-container {
+	float: left;
+}
+
+#premoderno .image-container {
+	float: left;
+}
+
+#avantgarde .image-container {
+	float: left;
+}
+
+#a1960 .image-container {
+	float: left;
+}
+
+#post .image-container {
+	float: left;
+}
+
+#a2000 .image-container {
+	float: left;
+}
+
+/*posicion*/
+
+#premoderno .movimiento {
+	margin-top: -8px;
+	float: right;
+	width: 413px;
+	clear: right;
+}
+
+#moderna  .movimiento1 {
+	margin-top: 122px;
+	float: right;
+	width: 389px;
+	clear: right;
+	margin-top: 105px;
+}
+
+#moderna  .movimiento2  {
+	margin-top: -37px;
+	float: right;
+	width: 562px;
+	clear: right;
+
+}
+
+#avantgarde  .movimiento3  {
+	margin-top: -1px;
+	float: right;
+	width: 380px;
+	clear: right;
+
+}
+
+#avantgarde  .movimiento4  {
+	margin-top: 29px;
+	float: right;
+	width: 323px;
+	clear: right;
+}
+
+#avantgarde  .movimiento5  {
+	margin-top: 350px;
+	float: right;
+	width: 389px;
+	clear: right;
+
+}
+
+#avantgarde  .movimiento6 {
+	margin-top: 54px;
+	float: right;
+	width: 584px;
+	clear: right;
+
+}
+
+#avantgarde  .movimiento7  {
+	margin-top: 71px;
+	float: right;
+	width: 736px;
+	clear: right;
+}
+
+#a1960 .movimiento8  {
+	margin-top: 33px;
+	float: right;
+	width: 405px;
+	clear: right;
+}
+
+#post .movimiento9 {
+	margin-top: -6px;
+	float: right;
+	width: 523px;
+	clear: right;
+}
+
+#post .movimiento10 {
+	margin-top: 126px;
+	float: right;
+	width: 420px;
+	clear: right;
+}
+
+
+#a2000 .movimiento11 {
+	margin-top: 119px;
+	float: right;
+	width: 472px;
+	clear: right;
+}
+
+
+/*imagenes*/
+
+#moderna #expresionismo .image-container .image {
+	background-image: url(../images/expresionismo.jpg);
+}
+
+#moderna #dada .image-container .image {
+	background-image: url(../images/dada.jpg);
+}
+
+#premoderno #artnouveau .image-container .image {
+	background-image: url(../images/artnouveau.jpg);
+}
+
+#avantgarde #futurismo .image-container .image {
+	background-image: url(../images/futurismo.jpg);
+}
+
+#avantgarde #constructivismo .image-container .image {
+	background-image: url(../images/constructivismo.jpg);
+}
+
+#avantgarde #suprematismo .image-container .image {
+	background-image: url(../images/suprematismo.jpg);
+}
+
+#avantgarde #destijl .image-container .image {
+	background-image: url(../images/destijl.jpg);
+}
+
+#avantgarde #bauhaus .image-container .image {
+	background-image: url(../images/bauhaus.jpg);
+}
+
+#a1960 #fecha1 .image-container .image {
+	background-image: url(../images/ikkotanaka.jpg);
+}
+
+#post #memphis .image-container .image{
+	background-image: url(../images/memphis.jpg)
+}
+
+#post #emigre .image-container .image{
+	background-image: url(../images/emigre.jpg)
+}
+
+#a2000 #fecha2 .image-container .image{
+	background-image: url(../images/sagmeister.jpg)
+}
+
+/*General*/
+
+body {
+
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+nav ul {
+	text-align: right;
+}
+
+#home nav ul li {
+	margin-right: 10px;
+}
+
+.menu li a {
+	color: #929497;
+	font-size: 10px;
+	font-weight: bold;
+	font-family: sans-serif;
+	letter-spacing: 0.7px;
+
+}
+
+/*hover*/
+
+.menu #historia1 a:hover {
+	color: #000000;
+}
+
+.menu #premoderno1 a:hover {
+	color: #F16224;
+}
+
+.menu #moderna1 a:hover {
+	color: #E5C02A;
+}
+
+.menu #avantgarde1 a:hover {
+	color: #3E8DCC;
+}
+
+.menu #fecha1 a:hover {
+	color: #2A8D45;
+}
+
+.menu #post1 a:hover {
+	color: #DA1E3A;
+}
+
+.menu #fecha2 a:hover {
+	color: #46276C;
+}
+
+/*class*/
+
+.wrapper {
+	margin: auto;
+	width: 100%;
+	background-color: #F2F2EF;
+	background-repeat: repeat;
+}
+
+.wrapper > div {
+	margin: 0 auto; 
+}
+
+.inicio {
+	font-size: 15px;
+	font-weight: bold;
+	color: #000;
+	font-family: sans-serif;
+	display: inline-block;
+	
+}
+
+.home {
+	width: 1024px;
+	height: 520px;
+	border: #F2F2EF 1px solid;
+	background: url(../images/home.svg);
+	background-repeat: no-repeat;
+}
+
+.premoderno{ 
+	width: 1024px;
+	height: 422px;
+	
+	background: url(../images/premoderno.svg);
+	background-repeat: repeat-y;
+}
+
+.moderna {
+	width: 1024px;
+	height: 610px;
+	background: url(../images/moderna.svg);
+	background-repeat: repeat-y; 
+}
+
+.avantgarde {
+	width: 1024px;
+	height: 1359px;
+
+	background: url(../images/avant.svg);
+	background-repeat: repeat-y;
+}
+
+._1960 {
+	width: 1024px;
+	height: 420px;
+	background: url(../images/1960.svg);
+	background-repeat: repeat-y;
+}
+
+.post {
+	width: 1024px;
+	height: 680px;
+	background: url(../images/post.svg);
+	background-repeat: repeat-y;
+}
+
+._2000 {
+	width: 1024px;
+	height: 423px; 
+	background: url(../images/2000.svg);
+	background-repeat: repeat-y;
+}
+
+.descarga {
+	background-color: #000;
+	width: 100%;
+	height: 189px;
+}
+
+.descargar {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+
+
+/*id*/
+
+#home nav {
+	margin-top: 65px;
+	display: block;
+}
+
+
+#inicio1 a {
+	border-bottom: 2px #000 solid
+}
+
+#inicio2 {
+	border-bottom: 2px #F16224 solid
+}
+
+#inicio3 {
+	border-bottom: 2px #E5C02A solid
+}
+
+#inicio4 {
+	border-bottom: 2px #3E8DCC solid
+}
+
+#inicio5 {
+	border-bottom: 2px #2A8D45 solid
+}
+
+#inicio6 {
+	border-bottom: 2px #DA1E3A solid
+}
+
+#inicio7 {
+	border-bottom: 2px #46276C solid
+}
+
+/*h*/
+
+h2 {
+	font-size: 15px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	margin-left: 80px;
+}
+
+h2 a {
+	border-bottom: 2px solid #000;
+	text-align: right;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+
+}
+
+h3 {
+	font-size: 13px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	margin-left: 80px;
+}
+
+h4 {
+	font-size: 11px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: right;
+	margin-top: 37px;
+	margin-right: 10px;
+	
+}
+
+h5 {
+	font-size: 11px;
+	font-family: sans-serif;
+	text-align: right;
+	margin-right: 10px;
+}
+
+h6 {
+	padding-top: 68px;
+}
+
+h6 a {
+	color: #fff;
+	font-size: 36px;
+	border-bottom: 6px #fff solid;
+	font-family: sans-serif;
+	margin-left: 400px;
+}
+
+footer h6 {
+	font-size: 11px;
+	color: #BBBDBF;
+	font-family: sans-serif;
+	margin-left: 390px;
+}
+
+p {
+	font-size: 12px;
+	font-family: sans-serif;
+	font-weight: lighter;
+	text-align: left;
+	margin-left: 80px;
+}
+
+article p {
+	text-align: right;
+	font-family: sans-serif;
+	font-size: 14px;
+	margin-right: 10px;
+	margin-top: 37px;
+	line-height: 15px;
+}
+
+article {
+	width: 760px;
+	float: right;
+}
